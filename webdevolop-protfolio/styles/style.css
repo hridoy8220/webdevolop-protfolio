@@ -49,5 +49,41 @@ font-weight: bold;
 padding: 18px 35px;
 color: white;
 border: none;
+}
+.header{
+    background-image: url(../developer.png),  url("../header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 220px;
+}
+.banner-content{
+    max-width: 480px;
+    
+}
+.banner-p{
+    font-weight: 600px;
+    font-size: 45px;
+}
+
+.banner-title{
+    font-size: 68px;
+font-weight: 700;
+
+}
+.banner-p2{
+    color: rgb(117, 117, 117);
+
+font-size: 14px;
+font-weight: 400;
+
+}
+.image{
+    
+width: 470px;
+height: 542px;
 
 }
