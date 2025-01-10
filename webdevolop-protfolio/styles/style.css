@@ -87,3 +87,67 @@ width: 470px;
 height: 542px;
 
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.about{
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    text-align: center;
+    padding: 130px 150px;
+    margin-top: 130px;
+}
+.section-title{
+    font-size: 28px;
+font-weight: 700;
+color: rgb(24, 24, 24);
+}
+
+.description{
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    font-size: 15px;
+}
+.personal{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.all-about{
+    background-color: white;
+    gap: 30px;
+}
+.item-subtitle{
+    font-weight: bold;
+    color: rgb(117, 117, 117);
+
+}
+
+.item-title{
+    color: rgb(117, 117, 117);
+
+}
+
+.skills{
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    gap: 20px;
+}
+.skill{
+    border-radius: 5px;
+    
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px   rgba(0, 0, 0, 0.06);
+}
